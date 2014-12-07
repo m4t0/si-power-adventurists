@@ -27,3 +27,6 @@ Then you can installGrunt Client and Bower :
 
 ## Start developments
 * `$grunt serve`
+
+## Report bugs
+* [Git Issues](https://github.com/Nehorim/si-power-adventurists/issues)
