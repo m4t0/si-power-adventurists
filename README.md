@@ -24,3 +24,6 @@ Then you can installGrunt Client and Bower :
 * Clone the repository 
 * `$npm install`
 * `$bower update`
+
+## Start developments
+* `$grunt serve`
