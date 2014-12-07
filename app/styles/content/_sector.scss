@@ -12,7 +12,7 @@
 }
 
 .sector {
-  min-height: $sector-height + 56px;
+  min-height: $sector-height + $navbar-height;
 }
 
 .main-sector {

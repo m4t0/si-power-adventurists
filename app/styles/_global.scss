@@ -2,7 +2,8 @@
 body {
   color: #333333;
   font-family: $font-primary;
-
+  padding-top: $navbar-height;
+  
   & > div.container-fluid {
     @include no-vertical-padding;
     @include no-vertical-margin;
@@ -75,26 +76,6 @@ a {
       height: 75%;
       width: 75%;
       border: 2px solid $color-secondary;
-    }
-  }
-}
-
-#header {
-  ul {
-    text-transform: uppercase;
-  }
-  .navbar {   
-    li {
-      a { 
-        color: $color-primary;
-        &:hover {
-          color: $color-secondary;
-        }
-      } 
-    }
-
-    li.active {
-      font-weight: bolder;
     }
   }
 }

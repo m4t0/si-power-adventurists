@@ -1,3 +1,34 @@
 #header {
-  border-bottom : 2px solid $color-secondary; 
+	border-bottom: 2px solid $color-secondary;
+	.fixed {
+		position:
+	}
+	ul {
+		text-transform: uppercase;
+	}
+	.nav {
+		li {
+			a{color: $color-primary;
+				&:hover {
+					color: $color-secondary;
+					background-color: lighten(#000, 93.5%);
+				}
+			}
+		}
+		li.active {
+			font-weight: bolder;
+		}
+	}
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: auto;
+		float: none;
+		width: 100%;
+		& > li {
+			display: table-cell;
+			float: none;
+			text-align: center;
+		}
+	}
 }
