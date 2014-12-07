@@ -1,0 +1,24 @@
+
+$color-primary:#33691E;
+$color-primary-font:#FFFFFF;
+$color-secondary: #FF8F00;
+
+$padding: 15px;
+$padding-sm: $padding / 2;
+$padding-lg: $padding * 2;
+
+$font-primary:'Open Sans', Helvetica, sans-serif;
+$font-title:'Roboto', 'Open Sans', Helvetica, sans-serif;
+
+$sector-height:723px - 6px;
+$title-sector-height: 250px;
+
+
+//Bootstrap Custom Variables
+$navbar-margin-bottom: 0;
+$navbar-border-radius: 0px;
+$navbar-default-bg: #FFFFFF;
+$navbar-default-border: $navbar-default-bg;
+$navbar-default-link-active-bg: $navbar-default-bg !default;
+
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";

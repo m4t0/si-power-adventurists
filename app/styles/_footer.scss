@@ -1,0 +1,19 @@
+
+#footer {
+  min-height: 150px;
+  padding-top: 20px;
+  background-color: $color-primary;
+  color: $color-primary-font;
+  a {
+    text-decoration: underline; 
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      line-height: 1.6;
+    }
+  } 
+}
+

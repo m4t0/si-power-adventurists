@@ -1,0 +1,11 @@
+@mixin no-vertical-padding
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@mixin no-vertical-margin
+{
+	margin-right: 0;
+    margin-left: 0;
+}

@@ -1,0 +1,110 @@
+
+body {
+  color: #333333;
+  font-family: $font-primary;
+
+  & > div.container-fluid {
+    @include no-vertical-padding;
+    @include no-vertical-margin;
+  }
+}
+
+span {
+  &.fa {
+    margin-right: 10px;
+  }
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bolder;
+  color:$color-primary;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: $color-primary-font;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
+//Main button
+.btn.btn-main {
+  font-size: 1.3em;
+  font-weight: bolder;
+
+  color: $color-primary;
+  background-color: $color-primary-font;
+  border-color: $color-primary;
+  padding: 15px 50px;
+
+  &:hover {
+    color: $color-primary-font;
+    background-color: $color-primary;
+    border-color: $color-primary-font;
+  }
+}
+
+.col-md-4 {
+  h2 {
+    text-align: center;
+  }
+
+  .media { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    img {
+      height: 75%;
+      width: 75%;
+      border: 2px solid $color-secondary;
+    }
+  }
+}
+
+#header {
+  ul {
+    text-transform: uppercase;
+  }
+  .navbar {   
+    li {
+      a { 
+        color: $color-primary;
+        &:hover {
+          color: $color-secondary;
+        }
+      } 
+    }
+
+    li.active {
+      font-weight: bolder;
+    }
+  }
+}
+
+.textMato {
+  line-height: 2;
+}
+
+.block-separator {
+  width: 50%;
+  height: 1px;
+  background-color: $color-primary;
+}

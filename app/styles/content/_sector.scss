@@ -1,0 +1,72 @@
+//Sector configuration
+.sector, .main-sector, .title-sector, {
+  border-bottom: 2px solid $color-secondary; 
+  h1 {
+    text-align: center;
+  }
+
+  .row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.sector {
+  min-height: $sector-height + 56px;
+}
+
+.main-sector {
+  min-height: $sector-height;
+
+  background-color: $color-primary;
+  color: $color-primary-font; 
+
+  h1 {
+    font-family: $font-title;
+    margin-bottom: 40px;
+  }
+
+  .btn.btn-main {
+    color: $color-primary-font;
+    background-color: $color-primary;
+    border-color: $color-primary-font;
+
+    &:hover {
+      color: $color-primary-font;
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+    }
+  }
+}
+
+.title-sector {
+  //height: $title-sector-height;
+
+  background-color: $color-primary;
+  color: $color-primary-font; 
+
+  h1 {
+    text-align: left;
+    font-family: $font-title;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .media {
+    padding-top:20px;
+    padding-bottom:20px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.sector-home {
+  .col-md-4, .col-lg-4 {
+    
+  }
+}

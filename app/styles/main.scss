@@ -1,0 +1,20 @@
+
+@import '_variables.scss';
+
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,700,800,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900);
+// endfonts
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import '_mixin.scss';
+@import '_global.scss';
+
+@import '_header.scss';
+@import '_footer.scss';
+
+@import '_contents.scss';
+
