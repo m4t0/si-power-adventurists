@@ -18,3 +18,9 @@
 		color: darken($color, 15%);
 	}
 }
+
+@mixin border-radius($radius-top, $radius-bottom) {
+	border-radius: $radius-top $radius-top $radius-bottom $radius-bottom;
+	-moz-border-radius: $radius-top $radius-top $radius-bottom $radius-bottom;
+	-webkit-border-radius: $radius-top $radius-top $radius-bottom $radius-bottom;
+}
