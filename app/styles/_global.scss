@@ -47,20 +47,25 @@ a {
   }
 }
 
-//Main button
-.btn.btn-main {
-  font-size: 1.3em;
-  font-weight: bolder;
+.btn {
+  @include no-border-radius;
 
-  color: $color-primary;
-  background-color: $color-primary-font;
-  border-color: $color-primary;
-  padding: 15px 50px;
+  //Main button
+  &.btn-main {
+    @include no-border-radius;
+    font-size: 1.3em;
+    font-weight: bolder;
 
-  &:hover {
-    color: $color-primary-font;
-    background-color: $color-primary;
-    border-color: $color-primary-font;
+    color: $color-primary;
+    background-color: $color-primary-font;
+    border-color: $color-primary;
+    padding: 15px 50px;
+
+    &:hover {
+      color: $color-primary-font;
+      background-color: $color-primary;
+      border-color: $color-primary-font;
+    }
   }
 }
 

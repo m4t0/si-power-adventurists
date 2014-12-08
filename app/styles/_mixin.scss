@@ -24,3 +24,7 @@
 	-moz-border-radius: $radius-top $radius-top $radius-bottom $radius-bottom;
 	-webkit-border-radius: $radius-top $radius-top $radius-bottom $radius-bottom;
 }
+
+@mixin no-border-radius {
+	@include border-radius(0, 0);
+}
