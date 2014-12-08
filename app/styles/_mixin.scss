@@ -1,11 +1,13 @@
-@mixin no-vertical-padding
-{
-    padding-right: 0;
-    padding-left: 0;
+@mixin no-vertical-padding {
+	padding-right: 0;
+	padding-left: 0;
 }
-
-@mixin no-vertical-margin
-{
+@mixin no-vertical-margin {
 	margin-right: 0;
-    margin-left: 0;
+	margin-left: 0;
+}
+@mixin box-shadow($top: 0, $left: 4px, $blur: 8px, $color: rgba(0, 0, 0, .28)) {
+	-webkit-box-shadow:$top $left $blur $color;
+	-moz-box-shadow:$top $left $blur $color;
+	box-shadow:$top $left $blur $color;
 }

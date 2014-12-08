@@ -1,5 +1,7 @@
 #header {
 	border-bottom: 2px solid $color-secondary;
+	@include box-shadow;
+	
 	.fixed {
 		position:
 	}
