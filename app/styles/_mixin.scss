@@ -11,3 +11,10 @@
 	-moz-box-shadow:$top $left $blur $color;
 	box-shadow:$top $left $blur $color;
 }
+@mixin community-link($color) {
+	color: $color;
+
+	&:hover {
+		color: darken($color, 15%);
+	}
+}

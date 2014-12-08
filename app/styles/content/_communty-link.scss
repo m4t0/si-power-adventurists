@@ -2,13 +2,13 @@
 #communty-link{
 	position: fixed;
 	top: 0;
-	right: -50px;
+	right: -40px;
 	width: 15%;
-	min-width: 150px;
+	width: 150px;
 	height: 100%;
 
 	margin-top: $navbar-height;
-	padding-top: 5%;
+	padding-top: 10%;
 
 	z-index: 1000;
 
@@ -18,14 +18,20 @@
 	-webkit-transition: padding-right 1s;
     transition: padding-right 1s;		
 
-	.link {
-		color: #2b7bb9;
-
-		&:hover {
-			color: darken(#2b7bb9, 15%);
-		}
-	}
-
+    a {
+    	&.facebook {
+    		@include community-link($facebook-color);
+    	}
+    	&.twitter {
+    		@include community-link($twitter-color);
+    	}
+    	&.instagram {
+    		@include community-link($instagram-color);
+    	}
+    	&.vine {
+    		@include community-link($vine-color);
+    	}
+    }
 	&:hover {
 		padding-right: 65px;
 	}
