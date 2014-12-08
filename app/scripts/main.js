@@ -1,9 +1,10 @@
 'use strict';
-// console.log('\'Allo \'Allo!');
 
 // $(document).ready(function() {
-// 	$('#headerMenu > li').click(function(){
-// 		$('#headerMenu > li.active').removeClass('active');
-// 		$(this).addClass('active');
-// 	});
+// 	$('#communty-link').hover(function(){
+// 			$(this).children('.link').stop( true, false ).animate({margin-right:'50px'});
+// 		},
+// 		function(){
+// 			$(this).children('.link').stop( true, false ).animate({margin-right:'-50px'});
+// 		});
 // });

@@ -1,0 +1,33 @@
+
+#communty-link{
+	position: fixed;
+	top: 0;
+	right: -50px;
+	width: 15%;
+	min-width: 150px;
+	height: 100%;
+
+	margin-top: $navbar-height;
+	padding-top: 5%;
+
+	z-index: 1000;
+
+	text-align: right;
+
+	padding-right: 0;
+	-webkit-transition: padding-right 1s;
+    transition: padding-right 1s;		
+
+	.link {
+		color: #2b7bb9;
+
+		&:hover {
+			color: darken(#2b7bb9, 15%);
+		}
+	}
+
+	&:hover {
+		padding-right: 65px;
+	}
+}
+
